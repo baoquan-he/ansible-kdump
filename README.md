@@ -20,4 +20,5 @@ ssh server:
 Only one thing need be noticed that ssh dumping need put ssh private/public
 key file separately to ssh server and ssh client. This has better be done
 beforehand, it's not suggested to do in kdump, I personally think. Just
-in test I did it in kdump ansible code.
+in test I did it in kdump ansible code. And the ssh dump target setting for
+testing has been commented out, user can change according to their configuration.
