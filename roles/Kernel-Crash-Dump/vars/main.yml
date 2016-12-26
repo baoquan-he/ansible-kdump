@@ -1,5 +1,5 @@
-ssh_server: 192.168.124.1
-user: root
+#ssh_server: 192.168.124.1
+#user: root
 
 ##fs_type: ext4
 ##partition: /dev/sda1

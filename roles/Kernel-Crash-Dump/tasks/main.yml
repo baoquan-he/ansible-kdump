@@ -12,6 +12,7 @@
     owner: root
     group: root
     mode: 0600
+  when: ssh_server is defined and ssh_server != ''
 
 - name: Generate /etc/kdump.conf file
   template: src=kdump.conf.j2 dest=/etc/kdump.conf
